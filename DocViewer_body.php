@@ -19,12 +19,12 @@ class DocViewer {
 
 			$fileName = array_shift( $args );
 
-			$fileName = trim( $frame->expand( $file ) ); // Clean file
+			$fileName = trim( $frame->expand( $fileName ) ); // Clean file
 			
 			// Wer may need to remove namespace here
 			$file = wfFindFile( $fileName );
-			if ( $file && is_object( $file ) ) {
-				$filepath = $file->getFullPath();
+			if ( $file && $file->exists() ) {
+				$filepath = $file->getUrl();
 				$attrs["src"] = $wgDocViewerViewerJSPath.$filepath;
 			}
 

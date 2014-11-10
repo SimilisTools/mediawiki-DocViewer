@@ -21,8 +21,8 @@ $GLOBALS['wgExtensionMessagesFiles']['DocViewerMagic'] = __DIR__ . '/DocViewer.i
 
 $wgHooks['ParserFirstCallInit'][] = 'wfRegisterDocViewer';
 
-// Path wrapup for ViewerJS
-$GLOBALS['wgDocViewerViewerJSPath'] = __DIR__ . '/libs/ViewerJS#../../..';
+// Path wrapup for ViewerJS -> This could be improved
+$GLOBALS['wgDocViewerViewerJSPath'] = '/w/extensions/DocViewer/libs/ViewerJS#../../../../..';
 
 /**
  * @param $parser Parser
