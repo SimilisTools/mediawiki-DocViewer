@@ -1,0 +1,26 @@
+{
+	"name": "mediawiki/doc-viewer",
+	"type": "mediawiki-extension",
+	"description": "Extension for embedding a document viewer for PDF, ODF and other kind of documents.",
+	"keywords": [
+		"MediaWiki",
+		"Document",
+		"PDF",
+		"ODF"
+	],
+	"homepage": "https://www.mediawiki.org/wiki/Extension:DocViewer",
+	"license": "GPL-3.0+",
+	"authors": [
+		{
+			"name": "Toni Hermoso Pulido",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3.0",
+		"composer/installers": "1.*,>=1.0.1"
+	},
+	"autoload": {
+		"files": ["DocViewer.php"]
+	}
+}
