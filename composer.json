@@ -8,8 +8,8 @@
 		"PDF",
 		"ODF"
 	],
-	"homepage": "https://www.mediawiki.org/wiki/Extension:DocViewer",
-	"license": "GPL-3.0+",
+	"homepage": "https://github.com/SimilisTools/mediawiki-DocViewer",
+	"license": "AGPL-3.0+",
 	"authors": [
 		{
 			"name": "Toni Hermoso Pulido",
